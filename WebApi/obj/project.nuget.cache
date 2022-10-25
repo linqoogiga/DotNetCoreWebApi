@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ylZioK4wPvLgLMnQ/ysIR0D0JEGDJkYGuAr1vQ04MsMkt1SnBYIAWH4QRp2Ccge4BocVKPHI80AbDv/cv7UKAA==",
+  "dgSpecHash": "RSiOy/GF7jZOrOR45p6yGROUTYyHDfK/74iD33IGfpVPefPimZMQTeyyeEAqf+qwxHi69XVqCWkL51gQsTc88Q==",
   "success": true,
-  "projectFilePath": "D:\\WebRoot\\WebApi\\WebApi\\WebApi.csproj",
+  "projectFilePath": "D:\\WebRoot\\DotNetCoreWebApi\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WebRoot\\WebApi\\WebApi.Tests\\WebApi.Tests.csproj": {}
+    "D:\\WebRoot\\DotNetCoreWebApi\\WebApi.Tests\\WebApi.Tests.csproj": {}
   },
   "projects": {
-    "D:\\WebRoot\\WebApi\\WebApi.Tests\\WebApi.Tests.csproj": {
+    "D:\\WebRoot\\DotNetCoreWebApi\\WebApi.Tests\\WebApi.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WebRoot\\WebApi\\WebApi.Tests\\WebApi.Tests.csproj",
+        "projectUniqueName": "D:\\WebRoot\\DotNetCoreWebApi\\WebApi.Tests\\WebApi.Tests.csproj",
         "projectName": "WebApi.Tests",
-        "projectPath": "D:\\WebRoot\\WebApi\\WebApi.Tests\\WebApi.Tests.csproj",
+        "projectPath": "D:\\WebRoot\\DotNetCoreWebApi\\WebApi.Tests\\WebApi.Tests.csproj",
         "packagesPath": "C:\\Users\\JohnLin\\.nuget\\packages\\",
-        "outputPath": "D:\\WebRoot\\WebApi\\WebApi.Tests\\obj\\",
+        "outputPath": "D:\\WebRoot\\DotNetCoreWebApi\\WebApi.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,8 +34,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\WebRoot\\WebApi\\WebApi\\WebApi.csproj": {
-                "projectPath": "D:\\WebRoot\\WebApi\\WebApi\\WebApi.csproj"
+              "D:\\WebRoot\\DotNetCoreWebApi\\WebApi\\WebApi.csproj": {
+                "projectPath": "D:\\WebRoot\\DotNetCoreWebApi\\WebApi\\WebApi.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "D:\\WebRoot\\WebApi\\WebApi\\WebApi.csproj": {
+    "D:\\WebRoot\\DotNetCoreWebApi\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WebRoot\\WebApi\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "D:\\WebRoot\\DotNetCoreWebApi\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "D:\\WebRoot\\WebApi\\WebApi\\WebApi.csproj",
+        "projectPath": "D:\\WebRoot\\DotNetCoreWebApi\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\JohnLin\\.nuget\\packages\\",
-        "outputPath": "D:\\WebRoot\\WebApi\\WebApi\\obj\\",
+        "outputPath": "D:\\WebRoot\\DotNetCoreWebApi\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

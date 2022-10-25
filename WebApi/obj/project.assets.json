@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WebRoot\\WebApi\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "D:\\WebRoot\\DotNetCoreWebApi\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "D:\\WebRoot\\WebApi\\WebApi\\WebApi.csproj",
+      "projectPath": "D:\\WebRoot\\DotNetCoreWebApi\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\JohnLin\\.nuget\\packages\\",
-      "outputPath": "D:\\WebRoot\\WebApi\\WebApi\\obj\\",
+      "outputPath": "D:\\WebRoot\\DotNetCoreWebApi\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
