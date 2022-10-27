@@ -8,8 +8,7 @@ namespace BLL
     {
         public int Add(int a, int b)
         {
-            int c = a + b;
-            c = 3;
+            int c = a + b;            
             return c;
         }
 

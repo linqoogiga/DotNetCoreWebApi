@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = xUnit.Tests
+build_property.ProjectDir = D:\WebRoot\DotNetCoreWebApi\xUnit.Tests\

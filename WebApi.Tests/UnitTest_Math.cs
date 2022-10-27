@@ -11,7 +11,7 @@ namespace WebApi.Tests
         [TestInitialize]                
         public void SetUp()
         {
-            IMath _math = new Math();
+            IMath _math = new BLL.Math();
         todoController = new MathController(_math);
         }
 
