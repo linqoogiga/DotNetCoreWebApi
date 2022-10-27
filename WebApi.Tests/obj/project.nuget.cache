@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "C+nwyuMWEMh7FEFkFg2JJAEg8cZcuMPqwcGaVM8Xm41TdefocHd1eNHPRoVafdpKMEd5LemYOuDqfyB+tx0crQ==",
+  "dgSpecHash": "IYgvIVqBPEgbrAKBc6DOF4Gi+UCFqg0o/uVA7WpIlYSg3R/dTyuKzT/Bs/H2XNKjDjMUItFQF4puBgCPKCSQ2w==",
   "success": true,
   "projectFilePath": "D:\\WebRoot\\DotNetCoreWebApi\\WebApi.Tests\\WebApi.Tests.csproj",
   "expectedPackageFiles": [

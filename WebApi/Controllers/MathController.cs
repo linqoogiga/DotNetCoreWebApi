@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BLL;
 
 namespace WebApi.Controllers
 {
@@ -12,10 +13,16 @@ namespace WebApi.Controllers
 
     public class MathController : ControllerBase
     {
+        private readonly IMath _math;
+        public MathController(IMath math)
+        {
+            _math = math;
+        }
+
         [HttpGet("{add}")]
         public int Add(int a, int b)
         {
-            int c = a + b+1;
+            int c = _math.Add(a,b);
             return c;
         }
 

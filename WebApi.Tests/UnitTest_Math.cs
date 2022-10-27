@@ -1,17 +1,18 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using WebApi.Controllers;
+using BLL;
 
 namespace WebApi.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class UnitTest_Math
     {
-        private MathController todoController;
-
-        [TestInitialize]
+        private MathController todoController;                
+        [TestInitialize]                
         public void SetUp()
         {
-            todoController = new MathController();
+            IMath _math = new Math();
+        todoController = new MathController(_math);
         }
 
         [TestMethod]

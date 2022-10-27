@@ -1661,9 +1661,22 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BLL.dll": {}
+        }
+      },
       "WebApi/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "BLL": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/WebApi.dll": {}
         },
@@ -6117,6 +6130,11 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "BLL/1.0.0": {
+      "type": "project",
+      "path": "../BLL/BLL.csproj",
+      "msbuildProject": "../BLL/BLL.csproj"
+    },
     "WebApi/1.0.0": {
       "type": "project",
       "path": "../WebApi/WebApi.csproj",
@@ -6125,6 +6143,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "BLL >= 1.0.0",
       "MSTest.TestAdapter >= 2.2.3",
       "MSTest.TestFramework >= 2.2.3",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
@@ -6167,6 +6186,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "D:\\WebRoot\\DotNetCoreWebApi\\BLL\\BLL.csproj": {
+              "projectPath": "D:\\WebRoot\\DotNetCoreWebApi\\BLL\\BLL.csproj"
+            },
             "D:\\WebRoot\\DotNetCoreWebApi\\WebApi\\WebApi.csproj": {
               "projectPath": "D:\\WebRoot\\DotNetCoreWebApi\\WebApi\\WebApi.csproj"
             }
