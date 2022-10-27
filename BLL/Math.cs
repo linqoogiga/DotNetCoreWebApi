@@ -9,6 +9,25 @@ namespace BLL
         public int Add(int a, int b)
         {
             int c = a + b;
+            c = 3;
+            return c;
+        }
+
+        public int Minus(int a, int b)
+        {
+            int c = a - b;
+            return c;
+        }
+
+        public int Multiple(int a, int b)
+        {
+            int c = a * b;
+            return c;
+        }
+
+        public int divide(int a, int b)
+        {
+            int c = a / b;
             return c;
         }
     }

@@ -19,10 +19,28 @@ namespace WebApi.Controllers
             _math = math;
         }
 
-        [HttpGet("{add}")]
-        public int Add(int a, int b)
+        [HttpGet("{Count}")]
+        public int Count(int act,int a, int b)
         {
-            int c = _math.Add(a,b);
+            int c = 0;
+            //===
+            if (act == 1)
+            {
+                c = _math.Add(a, b);
+            }
+            else if (act == 2)
+            {
+                c = _math.Minus(a, b);
+            }
+            else if (act == 3)
+            {
+                c = _math.Multiple(a, b);
+            }
+            else if (act == 4)
+            {
+                c = _math.divide(a, b);
+            }
+            //===
             return c;
         }
 
