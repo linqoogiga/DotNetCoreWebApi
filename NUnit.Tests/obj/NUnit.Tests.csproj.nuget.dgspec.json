@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/NUnit.Tests.csproj": {}
+    "/mnt/d/webroot/DotNetCoreWebApi/NUnit.Tests/NUnit.Tests.csproj": {}
   },
   "projects": {
-    "/mnt/d/webroot/dotnetcorewebapi/BLL/BLL.csproj": {
+    "/mnt/d/webroot/DotNetCoreWebApi/BLL/BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/d/webroot/dotnetcorewebapi/BLL/BLL.csproj",
+        "projectUniqueName": "/mnt/d/webroot/DotNetCoreWebApi/BLL/BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "/mnt/d/webroot/dotnetcorewebapi/BLL/BLL.csproj",
+        "projectPath": "/mnt/d/webroot/DotNetCoreWebApi/BLL/BLL.csproj",
         "packagesPath": "/home/johnlin/.nuget/packages/",
-        "outputPath": "/mnt/d/webroot/dotnetcorewebapi/BLL/obj/",
+        "outputPath": "/mnt/d/webroot/DotNetCoreWebApi/BLL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/johnlin/.nuget/NuGet/NuGet.Config"
@@ -54,14 +54,14 @@
         }
       }
     },
-    "/mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/NUnit.Tests.csproj": {
+    "/mnt/d/webroot/DotNetCoreWebApi/NUnit.Tests/NUnit.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/NUnit.Tests.csproj",
+        "projectUniqueName": "/mnt/d/webroot/DotNetCoreWebApi/NUnit.Tests/NUnit.Tests.csproj",
         "projectName": "NUnit.Tests",
-        "projectPath": "/mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/NUnit.Tests.csproj",
+        "projectPath": "/mnt/d/webroot/DotNetCoreWebApi/NUnit.Tests/NUnit.Tests.csproj",
         "packagesPath": "/home/johnlin/.nuget/packages/",
-        "outputPath": "/mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/obj/",
+        "outputPath": "/mnt/d/webroot/DotNetCoreWebApi/NUnit.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/johnlin/.nuget/NuGet/NuGet.Config"
@@ -75,11 +75,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/mnt/d/webroot/dotnetcorewebapi/BLL/BLL.csproj": {
-                "projectPath": "/mnt/d/webroot/dotnetcorewebapi/BLL/BLL.csproj"
+              "/mnt/d/webroot/DotNetCoreWebApi/BLL/BLL.csproj": {
+                "projectPath": "/mnt/d/webroot/DotNetCoreWebApi/BLL/BLL.csproj"
               },
-              "/mnt/d/webroot/dotnetcorewebapi/WebApi/WebApi.csproj": {
-                "projectPath": "/mnt/d/webroot/dotnetcorewebapi/WebApi/WebApi.csproj"
+              "/mnt/d/webroot/DotNetCoreWebApi/WebApi/WebApi.csproj": {
+                "projectPath": "/mnt/d/webroot/DotNetCoreWebApi/WebApi/WebApi.csproj"
               }
             }
           }
@@ -129,14 +129,14 @@
         }
       }
     },
-    "/mnt/d/webroot/dotnetcorewebapi/WebApi/WebApi.csproj": {
+    "/mnt/d/webroot/DotNetCoreWebApi/WebApi/WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/d/webroot/dotnetcorewebapi/WebApi/WebApi.csproj",
+        "projectUniqueName": "/mnt/d/webroot/DotNetCoreWebApi/WebApi/WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "/mnt/d/webroot/dotnetcorewebapi/WebApi/WebApi.csproj",
+        "projectPath": "/mnt/d/webroot/DotNetCoreWebApi/WebApi/WebApi.csproj",
         "packagesPath": "/home/johnlin/.nuget/packages/",
-        "outputPath": "/mnt/d/webroot/dotnetcorewebapi/WebApi/obj/",
+        "outputPath": "/mnt/d/webroot/DotNetCoreWebApi/WebApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/johnlin/.nuget/NuGet/NuGet.Config"
@@ -150,8 +150,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/mnt/d/webroot/dotnetcorewebapi/BLL/BLL.csproj": {
-                "projectPath": "/mnt/d/webroot/dotnetcorewebapi/BLL/BLL.csproj"
+              "/mnt/d/webroot/DotNetCoreWebApi/BLL/BLL.csproj": {
+                "projectPath": "/mnt/d/webroot/DotNetCoreWebApi/BLL/BLL.csproj"
               }
             }
           }

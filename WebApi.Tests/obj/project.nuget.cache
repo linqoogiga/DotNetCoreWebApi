@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MvahyC2ETy5+SVWgBDRxLYIezLarQ8NgcMT8bM87WvTfwE7j7U1cM4R0I/UwnbmdUm7Rx6IniDjBIxnKqxl+Tw==",
+  "dgSpecHash": "PV1+Wk2uL8tqSCYXXwnpJl3+an5NYW9q1cl0RoME3vk/jZKSGwYnNsijUsMUpz1Iu6NkxnxgOHHsjN26dusE9g==",
   "success": true,
-  "projectFilePath": "/mnt/d/webroot/dotnetcorewebapi/WebApi.Tests/WebApi.Tests.csproj",
+  "projectFilePath": "/mnt/d/webroot/DotNetCoreWebApi/WebApi.Tests/WebApi.Tests.csproj",
   "expectedPackageFiles": [
     "/home/johnlin/.nuget/packages/coverlet.collector/3.0.2/coverlet.collector.3.0.2.nupkg.sha512",
     "/home/johnlin/.nuget/packages/microsoft.codecoverage/16.9.4/microsoft.codecoverage.16.9.4.nupkg.sha512",

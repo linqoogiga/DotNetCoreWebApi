@@ -7,8 +7,8 @@ namespace WebApi.Tests
     [TestClass]
     public class UnitTest_Math
     {
-        private MathController todoController;                
-        [TestInitialize]                
+        private MathController todoController;
+        [TestInitialize]
         public void SetUp()
         {
             IMath _math = new BLL.Math();
@@ -26,14 +26,14 @@ namespace WebApi.Tests
 
             //act:呼叫目標物件的方法。
             int actual;
-            actual = todoController.Count(act,a,b);
+            actual = todoController.Count(act, a, b);
             //===
-            
+
             //assert:驗證是否符合預期。
             Assert.AreEqual(expected, actual);
         }
 
-        [TestMethod]        
+        [TestMethod]
         public void Test_Minus()
         {
             //arrange:初始化目標物件、相依物件、方法參數、預期結果，或是預期與相依物件的互動方式。
@@ -86,5 +86,29 @@ namespace WebApi.Tests
             //assert:驗證是否符合預期。
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod()]
+        public void All_Assert_Method()
+        {
+            Assert.AreNotEqual(1, 2);
+            //===
+            Assert.AreNotSame(new[] { 1, 2 }, new[] { 1, 2 });
+            //===
+            int[] array = new[] { 1, 2 };
+            Assert.AreSame(array, array);
+            //===
+            //Assert.Fail();
+            //===
+            Assert.IsFalse(1 == 2);
+            //===
+            Assert.IsNotNull(1 == 1);
+            Assert.IsNotNull(false);
+            //===
+            Assert.IsNull(null);
+            //===
+            Assert.IsTrue(1 == 1);
+            Assert.IsTrue(true);                        
+        }
     }
 }
+
