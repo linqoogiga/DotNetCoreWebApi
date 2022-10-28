@@ -1,29 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/d/webroot/DotNetCoreWebApi/BLL/BLL.csproj": {}
+    "D:\\WebRoot\\DotNetCoreWebApi\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "/mnt/d/webroot/DotNetCoreWebApi/BLL/BLL.csproj": {
+    "D:\\WebRoot\\DotNetCoreWebApi\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/d/webroot/DotNetCoreWebApi/BLL/BLL.csproj",
+        "projectUniqueName": "D:\\WebRoot\\DotNetCoreWebApi\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "/mnt/d/webroot/DotNetCoreWebApi/BLL/BLL.csproj",
-        "packagesPath": "/home/johnlin/.nuget/packages/",
-        "outputPath": "/mnt/d/webroot/DotNetCoreWebApi/BLL/obj/",
+        "projectPath": "D:\\WebRoot\\DotNetCoreWebApi\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\JohnLin\\.nuget\\packages\\",
+        "outputPath": "D:\\WebRoot\\DotNetCoreWebApi\\BLL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/home/johnlin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\JohnLin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -35,6 +44,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -50,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.424/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
         }
       }
     }

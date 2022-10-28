@@ -86,5 +86,28 @@ namespace xUnit.Tests
             //assert:驗證是否符合預期。
             Assert.Equal(expected, actual);
         }
+
+        [Fact]
+        public void All_Assert_Method()
+        {
+            Assert.NotEqual(1, 2);
+            //===
+            Assert.NotSame(new[] { 1, 2 }, new[] { 1, 2 });
+            //===
+            int[] array = new[] { 1, 2 };
+            Assert.Same(array, array);
+            //===
+            //Assert.Fail();
+            //===
+            Assert.False(1 == 2);
+            //===
+            Assert.NotNull(1 == 1);
+            Assert.NotNull(false);
+            //===
+            Assert.Null(null);
+            //===
+            Assert.True(1 == 1);
+            Assert.True(true);
+        }
     }
 }

@@ -86,5 +86,28 @@ namespace NUnit.Tests
             //assert:驗證是否符合預期。
             Assert.AreEqual(expected, actual);
         }
+
+        [Test]
+        public void All_Assert_Method()
+        {
+            Assert.AreNotEqual(1, 2);
+            //===
+            Assert.AreNotSame(new[] { 1, 2 }, new[] { 1, 2 });
+            //===
+            int[] array = new[] { 1, 2 };
+            Assert.AreSame(array, array);
+            //===
+            //Assert.Fail();
+            //===
+            Assert.IsFalse(1 == 2);
+            //===
+            Assert.IsNotNull(1 == 1);
+            Assert.IsNotNull(false);
+            //===
+            Assert.IsNull(null);
+            //===
+            Assert.IsTrue(1 == 1);
+            Assert.IsTrue(true);
+        }
     }
 }

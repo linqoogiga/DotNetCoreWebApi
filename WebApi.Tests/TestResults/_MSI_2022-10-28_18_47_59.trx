@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="e4291524-556f-4cec-978b-13b361ff8d12" name="@MSI 2022-10-28 18:47:59" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2022-10-28T18:47:59.0471132+08:00" queuing="2022-10-28T18:47:59.0471133+08:00" start="2022-10-28T18:47:58.0413608+08:00" finish="2022-10-28T18:47:59.0542132+08:00" />
+  <TestSettings name="default" id="29f6a96d-07d9-4323-97f9-81f845ad7536">
+    <Deployment runDeploymentRoot="_MSI_2022-10-28_18_47_59" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="0e15d47b-bf80-4826-afc9-a529fba44c8c" testId="df7c5bb9-179e-bbb4-0cff-4ab9fa43ac30" testName="All_Assert_Method" computerName="MSI" duration="00:00:00.0003770" startTime="2022-10-28T18:47:58.9357013+08:00" endTime="2022-10-28T18:47:58.9361155+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e15d47b-bf80-4826-afc9-a529fba44c8c" />
+    <UnitTestResult executionId="f800e8af-3d47-450c-b679-2038417214df" testId="41b527ac-4b64-9838-b9e7-c39253a2a794" testName="Test_Add" computerName="MSI" duration="00:00:00.0194037" startTime="2022-10-28T18:47:58.8947964+08:00" endTime="2022-10-28T18:47:58.9309534+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f800e8af-3d47-450c-b679-2038417214df" />
+    <UnitTestResult executionId="157f321c-005d-4628-b9c7-5681e54a6697" testId="767d0e87-a986-72ca-c025-9b9e6f36501a" testName="Test_Divide" computerName="MSI" duration="00:00:00.0000573" startTime="2022-10-28T18:47:58.9356006+08:00" endTime="2022-10-28T18:47:58.9356938+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="157f321c-005d-4628-b9c7-5681e54a6697" />
+    <UnitTestResult executionId="477c5430-03a5-4409-b7c9-2885eb76add1" testId="ff9ff691-3161-b8bd-3c9f-64e1a14c9e60" testName="Test_Minus" computerName="MSI" duration="00:00:00.0000911" startTime="2022-10-28T18:47:58.9351623+08:00" endTime="2022-10-28T18:47:58.9354220+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="477c5430-03a5-4409-b7c9-2885eb76add1" />
+    <UnitTestResult executionId="ecae02a7-6656-4f4b-80a2-365326a5e2c5" testId="7162cc5a-f83d-437d-254d-7ddda8395402" testName="Test_Multiple" computerName="MSI" duration="00:00:00.0000702" startTime="2022-10-28T18:47:58.9354506+08:00" endTime="2022-10-28T18:47:58.9355919+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ecae02a7-6656-4f4b-80a2-365326a5e2c5" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Test_Divide" storage="/mnt/d/webroot/dotnetcorewebapi/webapi.tests/bin/debug/netcoreapp3.1/webapi.tests.dll" id="767d0e87-a986-72ca-c025-9b9e6f36501a">
+      <Execution id="157f321c-005d-4628-b9c7-5681e54a6697" />
+      <TestMethod codeBase="/mnt/d/webroot/dotnetcorewebapi/WebApi.Tests/bin/Debug/netcoreapp3.1/WebApi.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="WebApi.Tests.UnitTest_Math" name="Test_Divide" />
+    </UnitTest>
+    <UnitTest name="Test_Minus" storage="/mnt/d/webroot/dotnetcorewebapi/webapi.tests/bin/debug/netcoreapp3.1/webapi.tests.dll" id="ff9ff691-3161-b8bd-3c9f-64e1a14c9e60">
+      <Execution id="477c5430-03a5-4409-b7c9-2885eb76add1" />
+      <TestMethod codeBase="/mnt/d/webroot/dotnetcorewebapi/WebApi.Tests/bin/Debug/netcoreapp3.1/WebApi.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="WebApi.Tests.UnitTest_Math" name="Test_Minus" />
+    </UnitTest>
+    <UnitTest name="Test_Add" storage="/mnt/d/webroot/dotnetcorewebapi/webapi.tests/bin/debug/netcoreapp3.1/webapi.tests.dll" id="41b527ac-4b64-9838-b9e7-c39253a2a794">
+      <Execution id="f800e8af-3d47-450c-b679-2038417214df" />
+      <TestMethod codeBase="/mnt/d/webroot/dotnetcorewebapi/WebApi.Tests/bin/Debug/netcoreapp3.1/WebApi.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="WebApi.Tests.UnitTest_Math" name="Test_Add" />
+    </UnitTest>
+    <UnitTest name="Test_Multiple" storage="/mnt/d/webroot/dotnetcorewebapi/webapi.tests/bin/debug/netcoreapp3.1/webapi.tests.dll" id="7162cc5a-f83d-437d-254d-7ddda8395402">
+      <Execution id="ecae02a7-6656-4f4b-80a2-365326a5e2c5" />
+      <TestMethod codeBase="/mnt/d/webroot/dotnetcorewebapi/WebApi.Tests/bin/Debug/netcoreapp3.1/WebApi.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="WebApi.Tests.UnitTest_Math" name="Test_Multiple" />
+    </UnitTest>
+    <UnitTest name="All_Assert_Method" storage="/mnt/d/webroot/dotnetcorewebapi/webapi.tests/bin/debug/netcoreapp3.1/webapi.tests.dll" id="df7c5bb9-179e-bbb4-0cff-4ab9fa43ac30">
+      <Execution id="0e15d47b-bf80-4826-afc9-a529fba44c8c" />
+      <TestMethod codeBase="/mnt/d/webroot/dotnetcorewebapi/WebApi.Tests/bin/Debug/netcoreapp3.1/WebApi.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="WebApi.Tests.UnitTest_Math" name="All_Assert_Method" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="df7c5bb9-179e-bbb4-0cff-4ab9fa43ac30" executionId="0e15d47b-bf80-4826-afc9-a529fba44c8c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41b527ac-4b64-9838-b9e7-c39253a2a794" executionId="f800e8af-3d47-450c-b679-2038417214df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="767d0e87-a986-72ca-c025-9b9e6f36501a" executionId="157f321c-005d-4628-b9c7-5681e54a6697" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff9ff691-3161-b8bd-3c9f-64e1a14c9e60" executionId="477c5430-03a5-4409-b7c9-2885eb76add1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7162cc5a-f83d-437d-254d-7ddda8395402" executionId="ecae02a7-6656-4f4b-80a2-365326a5e2c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
