@@ -12,7 +12,7 @@ namespace WebApi.Tests
         public void SetUp()
         {
             IMath _math = new BLL.Math();
-        todoController = new MathController(_math);
+            todoController = new MathController(_math);
         }
 
         [TestMethod]
@@ -33,7 +33,7 @@ namespace WebApi.Tests
             Assert.AreEqual(expected, actual);
         }
 
-        [TestMethod]
+        [TestMethod]        
         public void Test_Minus()
         {
             //arrange:初始化目標物件、相依物件、方法參數、預期結果，或是預期與相依物件的互動方式。

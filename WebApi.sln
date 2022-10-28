@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Tests", "WebApi.Tests\WebApi.Tests.csproj", "{AF5425BC-0D30-43AC-92B5-A28B1D4A940E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{0C6A4223-0DF1-44A5-811A-7508856A452D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLL", "BLL\BLL.csproj", "{0C6A4223-0DF1-44A5-811A-7508856A452D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnit.Tests", "xUnit.Tests\xUnit.Tests.csproj", "{64E4242C-8C4F-49A8-B3D4-8FBFF64AB25F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnit.Tests", "xUnit.Tests\xUnit.Tests.csproj", "{64E4242C-8C4F-49A8-B3D4-8FBFF64AB25F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit.Tests", "NUnit.Tests\NUnit.Tests.csproj", "{35FCD776-0434-4CB7-9F47-C1F4478363BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{64E4242C-8C4F-49A8-B3D4-8FBFF64AB25F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64E4242C-8C4F-49A8-B3D4-8FBFF64AB25F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64E4242C-8C4F-49A8-B3D4-8FBFF64AB25F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35FCD776-0434-4CB7-9F47-C1F4478363BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35FCD776-0434-4CB7-9F47-C1F4478363BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35FCD776-0434-4CB7-9F47-C1F4478363BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35FCD776-0434-4CB7-9F47-C1F4478363BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
