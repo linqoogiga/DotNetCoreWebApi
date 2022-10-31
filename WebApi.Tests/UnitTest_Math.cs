@@ -8,11 +8,29 @@ namespace WebApi.Tests
     public class UnitTest_Math
     {
         private MathController todoController;
+        [ClassInitialize]
+        public static void Init(TestContext testcontext)
+        {
+            //Only Run Once
+        }
+
+        [ClassCleanup]
+        public static void Once_Dispose()
+        {
+            //Only Run Once_Dispose
+        }
+
         [TestInitialize]
         public void SetUp()
         {
             IMath _math = new BLL.Math();
             todoController = new MathController(_math);
+        }
+
+        [TestCleanup]
+        public void Dispose()
+        {
+            //DoSomething Free Memory¡C
         }
 
         [TestMethod]

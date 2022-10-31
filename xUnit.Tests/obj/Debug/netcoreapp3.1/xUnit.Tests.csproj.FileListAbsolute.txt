@@ -1,12 +1,12 @@
 /mnt/d/webroot/dotnetcorewebapi/xUnit.Tests/bin/Debug/netcoreapp3.1/CoverletSourceRootsMapping
 /mnt/d/webroot/dotnetcorewebapi/xUnit.Tests/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /mnt/d/webroot/dotnetcorewebapi/xUnit.Tests/bin/Debug/netcoreapp3.1/appsettings.json
-/mnt/d/webroot/dotnetcorewebapi/xUnit.Tests/bin/Debug/netcoreapp3.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
-/mnt/d/webroot/dotnetcorewebapi/xUnit.Tests/bin/Debug/netcoreapp3.1/xunit.runner.reporters.netcoreapp10.dll
-/mnt/d/webroot/dotnetcorewebapi/xUnit.Tests/bin/Debug/netcoreapp3.1/xunit.runner.utility.netcoreapp10.dll
 /mnt/d/webroot/dotnetcorewebapi/xUnit.Tests/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
 /mnt/d/webroot/dotnetcorewebapi/xUnit.Tests/bin/Debug/netcoreapp3.1/WebApi
 /mnt/d/webroot/dotnetcorewebapi/xUnit.Tests/bin/Debug/netcoreapp3.1/Microsoft.TestPlatform.PlatformAbstractions.dll
+/mnt/d/webroot/dotnetcorewebapi/xUnit.Tests/bin/Debug/netcoreapp3.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/mnt/d/webroot/dotnetcorewebapi/xUnit.Tests/bin/Debug/netcoreapp3.1/xunit.runner.reporters.netcoreapp10.dll
+/mnt/d/webroot/dotnetcorewebapi/xUnit.Tests/bin/Debug/netcoreapp3.1/xunit.runner.utility.netcoreapp10.dll
 /mnt/d/webroot/dotnetcorewebapi/xUnit.Tests/bin/Debug/netcoreapp3.1/xUnit.Tests.deps.json
 /mnt/d/webroot/dotnetcorewebapi/xUnit.Tests/bin/Debug/netcoreapp3.1/xUnit.Tests.runtimeconfig.json
 /mnt/d/webroot/dotnetcorewebapi/xUnit.Tests/bin/Debug/netcoreapp3.1/xUnit.Tests.runtimeconfig.dev.json

@@ -1,14 +1,14 @@
 /mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/bin/Debug/netcoreapp3.1/CoverletSourceRootsMapping
 /mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/bin/Debug/netcoreapp3.1/appsettings.json
+/mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+/mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/bin/Debug/netcoreapp3.1/WebApi
+/mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/bin/Debug/netcoreapp3.1/Microsoft.TestPlatform.PlatformAbstractions.dll
 /mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/bin/Debug/netcoreapp3.1/NUnit3.TestAdapter.dll
 /mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/bin/Debug/netcoreapp3.1/NUnit3.TestAdapter.pdb
 /mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/bin/Debug/netcoreapp3.1/nunit.engine.dll
 /mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/bin/Debug/netcoreapp3.1/nunit.engine.api.dll
 /mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/bin/Debug/netcoreapp3.1/nunit.engine.core.dll
-/mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
-/mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/bin/Debug/netcoreapp3.1/WebApi
-/mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/bin/Debug/netcoreapp3.1/Microsoft.TestPlatform.PlatformAbstractions.dll
 /mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/bin/Debug/netcoreapp3.1/NUnit.Tests.deps.json
 /mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/bin/Debug/netcoreapp3.1/NUnit.Tests.runtimeconfig.json
 /mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/bin/Debug/netcoreapp3.1/NUnit.Tests.runtimeconfig.dev.json

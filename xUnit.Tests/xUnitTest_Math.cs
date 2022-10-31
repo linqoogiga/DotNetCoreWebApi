@@ -5,7 +5,7 @@ using BLL;
 
 namespace xUnit.Tests
 {
-    public class xUnitTest_Math
+    public class xUnitTest_Math:IDisposable
     {
         private MathController todoController;
         
@@ -13,6 +13,11 @@ namespace xUnit.Tests
         {
             IMath _math = new BLL.Math();
             todoController = new MathController(_math);
+        }
+
+        public void Dispose()
+        {
+            //DoSomething Free Memory。
         }
 
         [Fact]
@@ -39,7 +44,7 @@ namespace xUnit.Tests
             //arrange:初始化目標物件、相依物件、方法參數、預期結果，或是預期與相依物件的互動方式。
             int act = 2;
             int a = 100;
-            int b = 5;
+                                int b = 5;
             int expected = 95;
 
             //act:呼叫目標物件的方法。
@@ -67,7 +72,7 @@ namespace xUnit.Tests
 
             //assert:驗證是否符合預期。
             Assert.Equal(expected, actual);
-        }
+                                                       }
 
         [Fact]
         public void Test_Divide()

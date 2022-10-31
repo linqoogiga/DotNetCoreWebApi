@@ -8,11 +8,29 @@ namespace NUnit.Tests
     public class NUnitTest_Math
     {
         private MathController todoController;
+        [OneTimeSetUp]
+        public static void Init()
+        {
+            //Only Run Once
+        }
+
+        [OneTimeTearDown]
+        public static void Once_Dispose()
+        {
+            //Only Run Once_Dispose
+        }
+
         [SetUp]
         public void Setup()
         {
             IMath _math = new BLL.Math();
             todoController = new MathController(_math);
+        }
+
+        [TearDown]
+        public void Dispose()
+        {
+            //DoSomething Free Memory¡C
         }
 
         [Test]
