@@ -33,6 +33,7 @@ namespace NUnit.Tests
             //DoSomething Free Memory¡C
         }
 
+        [Category("CategoryA")]
         [Test]
         public void Test_Add()
         {

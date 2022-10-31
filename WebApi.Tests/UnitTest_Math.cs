@@ -33,6 +33,7 @@ namespace WebApi.Tests
             //DoSomething Free Memory¡C
         }
 
+        [TestCategory("CategoryA")]
         [TestMethod]
         public void Test_Add()
         {
@@ -51,6 +52,7 @@ namespace WebApi.Tests
             Assert.AreEqual(expected, actual);
         }
 
+        [TestCategory("CategoryA")]
         [TestMethod]
         public void Test_Minus()
         {

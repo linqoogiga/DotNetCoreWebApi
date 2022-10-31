@@ -20,7 +20,8 @@ namespace xUnit.Tests
             //DoSomething Free Memory。
         }
 
-        [Fact]
+
+        [Trait("CategoryA", "")]
         public void Test_Add()
         {
             //arrange:初始化目標物件、相依物件、方法參數、預期結果，或是預期與相依物件的互動方式。
