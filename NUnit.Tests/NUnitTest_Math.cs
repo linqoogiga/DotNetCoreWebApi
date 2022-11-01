@@ -13,7 +13,7 @@ namespace NUnit.Tests
         {
             //Only Run Once
         }
-
+  
         [OneTimeTearDown]
         public static void Once_Dispose()
         {
@@ -33,9 +33,11 @@ namespace NUnit.Tests
             //DoSomething Free Memory。
         }
 
-        [Category("CategoryA")]
+        [Repeat(2)]
         [Test]
-        public void Test_Add()
+        [TestCase(2, 3)]
+        [TestCase(5, 6)]
+        public void Test_Add(int x,int y)
         {
             //arrange:初始化目標物件、相依物件、方法參數、預期結果，或是預期與相依物件的互動方式。
             int act = 1;
