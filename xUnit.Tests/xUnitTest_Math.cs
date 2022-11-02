@@ -44,7 +44,7 @@ namespace xUnit.Tests
             //arrange:初始化目標物件、相依物件、方法參數、預期結果，或是預期與相依物件的互動方式。
             int act = 2;
             int a = 100;
-                                int b = 5;
+            int b = 5;
             int expected = 95;
 
             //act:呼叫目標物件的方法。

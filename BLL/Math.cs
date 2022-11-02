@@ -29,5 +29,24 @@ namespace BLL
             int c = a / b;
             return c;
         }
+
+        public string WorkTime(int hours)
+        {
+            if (hours > 12)
+            {
+                throw new AngryException("HaHa");
+            }
+
+            // todo something
+            return "Normal";
+        }
+    }
+
+    public class AngryException : Exception
+    {
+        public AngryException(string message) : 
+            base(message)
+        {
+        }
     }
 }

@@ -39,11 +39,9 @@ namespace WebApi.Tests
             //DoSomething Free Memory。
         }
 
-         [TestMethod]
-         //[DataTestMethod]
-         [DataRow(1, 2)]
-         [DataRow(2, 3)]
-         [DataRow(3, 5)]
+        [TestMethod]
+        [DataRow(1, 2)]
+        [DataRow(3, 6)]
         public void Test_Add(int x, int y)
         {
             //arrange:初始化目標物件、相依物件、方法參數、預期結果，或是預期與相依物件的互動方式。
@@ -140,4 +138,5 @@ namespace WebApi.Tests
         }
     }
 }
+
 

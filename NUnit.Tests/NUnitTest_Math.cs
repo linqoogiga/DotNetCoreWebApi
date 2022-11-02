@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using WebApi.Controllers;
+using System.Text;
 using BLL;
 
 namespace NUnit.Tests
@@ -13,7 +14,7 @@ namespace NUnit.Tests
         {
             //Only Run Once
         }
-  
+
         [OneTimeTearDown]
         public static void Once_Dispose()
         {
@@ -37,7 +38,7 @@ namespace NUnit.Tests
         [Test]
         [TestCase(2, 3)]
         [TestCase(5, 6)]
-        public void Test_Add(int x,int y)
+        public void Test_Add(int x, int y)
         {
             //arrange:初始化目標物件、相依物件、方法參數、預期結果，或是預期與相依物件的互動方式。
             int act = 1;
@@ -129,6 +130,25 @@ namespace NUnit.Tests
             //===
             Assert.IsTrue(1 == 1);
             Assert.IsTrue(true);
+        }
+
+        [Test()]
+        public void WorktimeTest()
+        {
+            Assert.Throws<AngryException>(() => todoController.WorkTime(15));
+        }
+
+        [Test()]
+        public void WorktimeTest_Message()
+        {
+            var ex = Assert.Catch<AngryException>(() => todoController.WorkTime(15));
+            //===
+            string tmpAssertExMsg= "HaHa";
+            UTF8Encoding encoder = new UTF8Encoding();
+            byte[] bytes = Encoding.UTF8.GetBytes(tmpAssertExMsg);
+            string utf8ReturnString = encoder.GetString(bytes);
+            //===
+            StringAssert.Contains(utf8ReturnString, ex.Message);
         }
     }
 }

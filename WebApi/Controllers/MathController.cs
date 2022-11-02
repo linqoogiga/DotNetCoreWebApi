@@ -9,7 +9,7 @@ using BLL;
 namespace WebApi.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
 
     public class MathController : ControllerBase
     {
@@ -19,7 +19,7 @@ namespace WebApi.Controllers
             _math = math;
         }
 
-        [HttpGet("{Count}")]
+        [HttpGet]
         public int Count(int act,int a, int b)
         {
             int c = 0;
@@ -44,5 +44,13 @@ namespace WebApi.Controllers
             return c;
         }
 
+
+        [HttpGet]
+        public string WorkTime(int hour)
+        {
+            string tmpMsg = _math.WorkTime(hour);
+            //===
+            return tmpMsg;
+        }
     }
 }
