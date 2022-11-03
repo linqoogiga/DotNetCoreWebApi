@@ -73,6 +73,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
 
+        [Order(2)]
         [Test]
         public void Test_Multiple()
         {
@@ -91,6 +92,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
 
+        [Order(1)]
         [Test]
         public void Test_Divide()
         {

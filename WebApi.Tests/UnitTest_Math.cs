@@ -78,6 +78,7 @@ namespace WebApi.Tests
             Assert.AreEqual(expected, actual);
         }
 
+        [Priority(1)]
         [TestMethod]
         public void Test_Multiple()
         {
@@ -96,6 +97,7 @@ namespace WebApi.Tests
             Assert.AreEqual(expected, actual);
         }
 
+        [Priority(0)]
         [TestMethod]
         public void Test_Divide()
         {
