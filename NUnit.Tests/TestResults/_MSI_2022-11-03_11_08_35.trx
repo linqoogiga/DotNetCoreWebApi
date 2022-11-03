@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="14bebafd-dc39-476b-9874-c0cf8a3e7429" name="@MSI 2022-11-03 11:08:35" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2022-11-03T11:08:35.0650802+08:00" queuing="2022-11-03T11:08:35.0650803+08:00" start="2022-11-03T11:08:33.7818094+08:00" finish="2022-11-03T11:08:35.0794390+08:00" />
+  <TestSettings name="default" id="dd67215f-9d8e-4ddd-8d44-6b4cc84ab0d3">
+    <Deployment runDeploymentRoot="_MSI_2022-11-03_11_08_35" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="1355d295-42b1-4ba4-9861-53cacb454028" testId="bccbf2c4-c14b-977d-b6a4-d566981e9235" testName="Test_Divide" computerName="MSI" duration="00:00:00.0001180" startTime="2022-11-03T11:08:34.9875588+08:00" endTime="2022-11-03T11:08:34.9876774+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1355d295-42b1-4ba4-9861-53cacb454028" />
+    <UnitTestResult executionId="9e0218a1-b378-42ba-a2cb-9ba0cf8e8c7d" testId="97114d56-021b-2caf-170f-bf97cffb2a61" testName="Test_Add(2,3)" computerName="MSI" duration="00:00:00.0291360" startTime="2022-11-03T11:08:34.9569270+08:00" endTime="2022-11-03T11:08:34.9860602+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e0218a1-b378-42ba-a2cb-9ba0cf8e8c7d">
+      <Output>
+        <ErrorInfo>
+          <Message>  Expected: 105
+  But was:  106
+</Message>
+          <StackTrace>   at NUnit.Tests.NUnitTest_Math.Test_Add(Int32 x, Int32 y) in /mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/NUnitTest_Math.cs:line 55
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a3f44c06-6a3d-4838-bf65-9977ad6def41" testId="294fdac9-0ced-4996-4ebc-ab14bcdf116f" testName="Test_Multiple" computerName="MSI" duration="00:00:00.0000810" startTime="2022-11-03T11:08:34.9878039+08:00" endTime="2022-11-03T11:08:34.9878849+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a3f44c06-6a3d-4838-bf65-9977ad6def41" />
+    <UnitTestResult executionId="43a7b747-0fd2-4c51-b063-3ec522ee04b5" testId="d305b50a-7d1e-dd4e-b2aa-5256ec4e77b4" testName="All_Assert_Method" computerName="MSI" duration="00:00:00.0152550" startTime="2022-11-03T11:08:34.9406758+08:00" endTime="2022-11-03T11:08:34.9558841+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43a7b747-0fd2-4c51-b063-3ec522ee04b5" />
+    <UnitTestResult executionId="6980d133-a477-4436-b7ad-364e6592996d" testId="ab6870e6-c537-01ce-c2a8-239809bf444a" testName="Test_Add(5,6)" computerName="MSI" duration="00:00:00.0004960" startTime="2022-11-03T11:08:34.9861852+08:00" endTime="2022-11-03T11:08:34.9866806+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6980d133-a477-4436-b7ad-364e6592996d">
+      <Output>
+        <ErrorInfo>
+          <Message>  Expected: 105
+  But was:  106
+</Message>
+          <StackTrace>   at NUnit.Tests.NUnitTest_Math.Test_Add(Int32 x, Int32 y) in /mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/NUnitTest_Math.cs:line 55
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8376e40c-7a46-4baa-ae1c-5dec3e48de5e" testId="a8b23a2c-b29a-67e0-5168-79a00704d349" testName="WorktimeTest" computerName="MSI" duration="00:00:00.0011240" startTime="2022-11-03T11:08:34.9878893+08:00" endTime="2022-11-03T11:08:34.9890129+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8376e40c-7a46-4baa-ae1c-5dec3e48de5e" />
+    <UnitTestResult executionId="955b6cc6-e3bb-4a5c-bdb6-bfd7bf6cf22a" testId="4f1497bb-4882-a205-189d-f31c6f1297c2" testName="Test_Minus" computerName="MSI" duration="00:00:00.0001130" startTime="2022-11-03T11:08:34.9876847+08:00" endTime="2022-11-03T11:08:34.9877974+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="955b6cc6-e3bb-4a5c-bdb6-bfd7bf6cf22a" />
+    <UnitTestResult executionId="3758669e-8a77-4123-8f3d-33dbdeacda3f" testId="1502d5fc-63f2-de69-11f6-6b71118fc716" testName="WorktimeTest_Message" computerName="MSI" duration="00:00:00.0008380" startTime="2022-11-03T11:08:34.9890535+08:00" endTime="2022-11-03T11:08:34.9898916+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3758669e-8a77-4123-8f3d-33dbdeacda3f" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Test_Minus" storage="/mnt/d/webroot/dotnetcorewebapi/nunit.tests/bin/debug/netcoreapp3.1/nunit.tests.dll" id="4f1497bb-4882-a205-189d-f31c6f1297c2">
+      <Execution id="955b6cc6-e3bb-4a5c-bdb6-bfd7bf6cf22a" />
+      <TestMethod codeBase="/mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/bin/Debug/netcoreapp3.1/NUnit.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="NUnit.Tests.NUnitTest_Math" name="Test_Minus" />
+    </UnitTest>
+    <UnitTest name="Test_Divide" storage="/mnt/d/webroot/dotnetcorewebapi/nunit.tests/bin/debug/netcoreapp3.1/nunit.tests.dll" id="bccbf2c4-c14b-977d-b6a4-d566981e9235">
+      <Execution id="1355d295-42b1-4ba4-9861-53cacb454028" />
+      <TestMethod codeBase="/mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/bin/Debug/netcoreapp3.1/NUnit.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="NUnit.Tests.NUnitTest_Math" name="Test_Divide" />
+    </UnitTest>
+    <UnitTest name="Test_Add(5,6)" storage="/mnt/d/webroot/dotnetcorewebapi/nunit.tests/bin/debug/netcoreapp3.1/nunit.tests.dll" id="ab6870e6-c537-01ce-c2a8-239809bf444a">
+      <Execution id="6980d133-a477-4436-b7ad-364e6592996d" />
+      <TestMethod codeBase="/mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/bin/Debug/netcoreapp3.1/NUnit.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="NUnit.Tests.NUnitTest_Math" name="Test_Add(5,6)" />
+    </UnitTest>
+    <UnitTest name="WorktimeTest_Message" storage="/mnt/d/webroot/dotnetcorewebapi/nunit.tests/bin/debug/netcoreapp3.1/nunit.tests.dll" id="1502d5fc-63f2-de69-11f6-6b71118fc716">
+      <Execution id="3758669e-8a77-4123-8f3d-33dbdeacda3f" />
+      <TestMethod codeBase="/mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/bin/Debug/netcoreapp3.1/NUnit.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="NUnit.Tests.NUnitTest_Math" name="WorktimeTest_Message" />
+    </UnitTest>
+    <UnitTest name="Test_Add(2,3)" storage="/mnt/d/webroot/dotnetcorewebapi/nunit.tests/bin/debug/netcoreapp3.1/nunit.tests.dll" id="97114d56-021b-2caf-170f-bf97cffb2a61">
+      <Execution id="9e0218a1-b378-42ba-a2cb-9ba0cf8e8c7d" />
+      <TestMethod codeBase="/mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/bin/Debug/netcoreapp3.1/NUnit.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="NUnit.Tests.NUnitTest_Math" name="Test_Add(2,3)" />
+    </UnitTest>
+    <UnitTest name="All_Assert_Method" storage="/mnt/d/webroot/dotnetcorewebapi/nunit.tests/bin/debug/netcoreapp3.1/nunit.tests.dll" id="d305b50a-7d1e-dd4e-b2aa-5256ec4e77b4">
+      <Execution id="43a7b747-0fd2-4c51-b063-3ec522ee04b5" />
+      <TestMethod codeBase="/mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/bin/Debug/netcoreapp3.1/NUnit.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="NUnit.Tests.NUnitTest_Math" name="All_Assert_Method" />
+    </UnitTest>
+    <UnitTest name="WorktimeTest" storage="/mnt/d/webroot/dotnetcorewebapi/nunit.tests/bin/debug/netcoreapp3.1/nunit.tests.dll" id="a8b23a2c-b29a-67e0-5168-79a00704d349">
+      <Execution id="8376e40c-7a46-4baa-ae1c-5dec3e48de5e" />
+      <TestMethod codeBase="/mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/bin/Debug/netcoreapp3.1/NUnit.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="NUnit.Tests.NUnitTest_Math" name="WorktimeTest" />
+    </UnitTest>
+    <UnitTest name="Test_Multiple" storage="/mnt/d/webroot/dotnetcorewebapi/nunit.tests/bin/debug/netcoreapp3.1/nunit.tests.dll" id="294fdac9-0ced-4996-4ebc-ab14bcdf116f">
+      <Execution id="a3f44c06-6a3d-4838-bf65-9977ad6def41" />
+      <TestMethod codeBase="/mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/bin/Debug/netcoreapp3.1/NUnit.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="NUnit.Tests.NUnitTest_Math" name="Test_Multiple" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="bccbf2c4-c14b-977d-b6a4-d566981e9235" executionId="1355d295-42b1-4ba4-9861-53cacb454028" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97114d56-021b-2caf-170f-bf97cffb2a61" executionId="9e0218a1-b378-42ba-a2cb-9ba0cf8e8c7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="294fdac9-0ced-4996-4ebc-ab14bcdf116f" executionId="a3f44c06-6a3d-4838-bf65-9977ad6def41" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d305b50a-7d1e-dd4e-b2aa-5256ec4e77b4" executionId="43a7b747-0fd2-4c51-b063-3ec522ee04b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab6870e6-c537-01ce-c2a8-239809bf444a" executionId="6980d133-a477-4436-b7ad-364e6592996d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a8b23a2c-b29a-67e0-5168-79a00704d349" executionId="8376e40c-7a46-4baa-ae1c-5dec3e48de5e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4f1497bb-4882-a205-189d-f31c6f1297c2" executionId="955b6cc6-e3bb-4a5c-bdb6-bfd7bf6cf22a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1502d5fc-63f2-de69-11f6-6b71118fc716" executionId="3758669e-8a77-4123-8f3d-33dbdeacda3f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="8" executed="8" passed="6" failed="2" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.17.0.0: Test execution started
+Running all tests in /mnt/d/webroot/dotnetcorewebapi/NUnit.Tests/bin/Debug/netcoreapp3.1/NUnit.Tests.dll
+   NUnit3TestExecutor discovered 8 of 8 NUnit test cases
+NUnit Adapter 3.17.0.0: Test execution complete
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

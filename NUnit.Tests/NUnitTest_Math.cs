@@ -5,7 +5,7 @@ using BLL;
 
 namespace NUnit.Tests
 {
-    [TestFixture]
+    [TestFixture, Description("ZA_NUnitTest_Math")]
     public class NUnitTest_Math
     {
         private MathController todoController;
@@ -35,7 +35,7 @@ namespace NUnit.Tests
         }
 
         [Repeat(2)]
-        [Test]
+        [Test, Description("ZA_Test_Add")]
         [TestCase(2, 3)]
         [TestCase(5, 6)]
         public void Test_Add(int x, int y)

@@ -6152,34 +6152,45 @@
     ]
   },
   "packageFolders": {
-    "/home/johnlin/.nuget/packages/": {}
+    "C:\\Users\\JohnLin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/d/webroot/dotnetcorewebapi/WebApi.Tests/WebApi.Tests.csproj",
+      "projectUniqueName": "D:\\WebRoot\\DotNetCoreWebApi\\WebApi.Tests\\WebApi.Tests.csproj",
       "projectName": "WebApi.Tests",
-      "projectPath": "/mnt/d/webroot/dotnetcorewebapi/WebApi.Tests/WebApi.Tests.csproj",
-      "packagesPath": "/home/johnlin/.nuget/packages/",
-      "outputPath": "/mnt/d/webroot/dotnetcorewebapi/WebApi.Tests/obj/",
+      "projectPath": "D:\\WebRoot\\DotNetCoreWebApi\\WebApi.Tests\\WebApi.Tests.csproj",
+      "packagesPath": "C:\\Users\\JohnLin\\.nuget\\packages\\",
+      "outputPath": "D:\\WebRoot\\DotNetCoreWebApi\\WebApi.Tests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/home/johnlin/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\JohnLin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/mnt/d/webroot/dotnetcorewebapi/BLL/BLL.csproj": {
-              "projectPath": "/mnt/d/webroot/dotnetcorewebapi/BLL/BLL.csproj"
+            "D:\\WebRoot\\DotNetCoreWebApi\\BLL\\BLL.csproj": {
+              "projectPath": "D:\\WebRoot\\DotNetCoreWebApi\\BLL\\BLL.csproj"
             },
-            "/mnt/d/webroot/dotnetcorewebapi/WebApi/WebApi.csproj": {
-              "projectPath": "/mnt/d/webroot/dotnetcorewebapi/WebApi/WebApi.csproj"
+            "D:\\WebRoot\\DotNetCoreWebApi\\WebApi\\WebApi.csproj": {
+              "projectPath": "D:\\WebRoot\\DotNetCoreWebApi\\WebApi\\WebApi.csproj"
             }
           }
         }
@@ -6192,6 +6203,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "MSTest.TestAdapter": {
             "target": "Package",
@@ -6225,7 +6237,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.424/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
       }
     }
   }

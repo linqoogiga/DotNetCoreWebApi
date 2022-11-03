@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="0981d0d2-8461-488b-a97f-3a31f824477a" name="@MSI 2022-11-03 11:08:34" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2022-11-03T11:08:34.9729064+08:00" queuing="2022-11-03T11:08:34.9729064+08:00" start="2022-11-03T11:08:33.7815748+08:00" finish="2022-11-03T11:08:34.9877496+08:00" />
+  <TestSettings name="default" id="5b3de492-866c-4b49-8136-46c3e4202a53">
+    <Deployment runDeploymentRoot="_MSI_2022-11-03_11_08_34" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="6dd04a17-66e6-41b2-a077-c658428256e7" testId="612b93fc-f78c-539c-56a9-4431699054aa" testName="WorktimeTest_Message" computerName="MSI" duration="00:00:00.0001419" startTime="2022-11-03T11:08:34.8685233+08:00" endTime="2022-11-03T11:08:34.8687669+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6dd04a17-66e6-41b2-a077-c658428256e7" />
+    <UnitTestResult executionId="406bb23d-ad27-4b89-983a-5c5dcf1d5cb6" testId="df7c5bb9-179e-bbb4-0cff-4ab9fa43ac30" testName="All_Assert_Method" computerName="MSI" duration="00:00:00.0004535" startTime="2022-11-03T11:08:34.8674765+08:00" endTime="2022-11-03T11:08:34.8679935+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="406bb23d-ad27-4b89-983a-5c5dcf1d5cb6" />
+    <UnitTestResult executionId="7580e8a2-454e-4a53-8c6c-17b25c579d67" testId="7162cc5a-f83d-437d-254d-7ddda8395402" testName="Test_Multiple" computerName="MSI" duration="00:00:00.0000581" startTime="2022-11-03T11:08:34.8672701+08:00" endTime="2022-11-03T11:08:34.8673802+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7580e8a2-454e-4a53-8c6c-17b25c579d67" />
+    <UnitTestResult executionId="930a8886-a166-453d-8f43-0d1f068391ef" testId="767d0e87-a986-72ca-c025-9b9e6f36501a" testName="Test_Divide" computerName="MSI" duration="00:00:00.0000481" startTime="2022-11-03T11:08:34.8673883+08:00" endTime="2022-11-03T11:08:34.8674696+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="930a8886-a166-453d-8f43-0d1f068391ef" />
+    <UnitTestResult executionId="ecbf36eb-e051-4657-be13-3a26bdb3ee55" testId="d3926562-b25c-8076-482d-4e97af76817c" testName="WorktimeTest" computerName="MSI" duration="00:00:00.0004011" startTime="2022-11-03T11:08:34.8680078+08:00" endTime="2022-11-03T11:08:34.8685081+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ecbf36eb-e051-4657-be13-3a26bdb3ee55" />
+    <UnitTestResult executionId="46626da6-1b3a-4662-8dfa-6d8fb9b988d1" testId="ff9ff691-3161-b8bd-3c9f-64e1a14c9e60" testName="Test_Minus" computerName="MSI" duration="00:00:00.0000986" startTime="2022-11-03T11:08:34.8669833+08:00" endTime="2022-11-03T11:08:34.8672498+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="46626da6-1b3a-4662-8dfa-6d8fb9b988d1" />
+    <UnitTestResult executionId="aaf54871-8f07-4c42-bb56-77b6cea3078d" testId="9e1eab6c-6567-6e8b-be14-f68761daa49e" testName="Test_Add" computerName="MSI" duration="00:00:00.0424123" startTime="2022-11-03T11:08:34.8019812+08:00" endTime="2022-11-03T11:08:34.8624578+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aaf54871-8f07-4c42-bb56-77b6cea3078d" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="a3ec9fa5-fb32-41ae-8f63-c889f9cfc5ff" parentExecutionId="aaf54871-8f07-4c42-bb56-77b6cea3078d" testId="9e1eab6c-6567-6e8b-be14-f68761daa49e" testName="Test_Add (1,2)" computerName="MSI" duration="00:00:00.0398079" startTime="2022-11-03T11:08:34.8019812+08:00" endTime="2022-11-03T11:08:34.8624578+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a3ec9fa5-fb32-41ae-8f63-c889f9cfc5ff" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;105&gt;. Actual:&lt;106&gt;. </Message>
+              <StackTrace>   at WebApi.Tests.UnitTest_Math.Test_Add(Int32 x, Int32 y) in /mnt/d/webroot/dotnetcorewebapi/WebApi.Tests/UnitTest_Math.cs:line 59
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="19614be8-5ba3-4da5-aee2-10c9516b9c60" parentExecutionId="aaf54871-8f07-4c42-bb56-77b6cea3078d" testId="9e1eab6c-6567-6e8b-be14-f68761daa49e" testName="Test_Add (3,6)" computerName="MSI" duration="00:00:00.0002035" startTime="2022-11-03T11:08:34.8019812+08:00" endTime="2022-11-03T11:08:34.8624578+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19614be8-5ba3-4da5-aee2-10c9516b9c60" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;105&gt;. Actual:&lt;106&gt;. </Message>
+              <StackTrace>   at WebApi.Tests.UnitTest_Math.Test_Add(Int32 x, Int32 y) in /mnt/d/webroot/dotnetcorewebapi/WebApi.Tests/UnitTest_Math.cs:line 59
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Test_Divide" storage="/mnt/d/webroot/dotnetcorewebapi/webapi.tests/bin/debug/netcoreapp3.1/webapi.tests.dll" id="767d0e87-a986-72ca-c025-9b9e6f36501a">
+      <Execution id="930a8886-a166-453d-8f43-0d1f068391ef" />
+      <TestMethod codeBase="/mnt/d/webroot/dotnetcorewebapi/WebApi.Tests/bin/Debug/netcoreapp3.1/WebApi.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="WebApi.Tests.UnitTest_Math" name="Test_Divide" />
+    </UnitTest>
+    <UnitTest name="WorktimeTest_Message" storage="/mnt/d/webroot/dotnetcorewebapi/webapi.tests/bin/debug/netcoreapp3.1/webapi.tests.dll" id="612b93fc-f78c-539c-56a9-4431699054aa">
+      <Execution id="6dd04a17-66e6-41b2-a077-c658428256e7" />
+      <TestMethod codeBase="/mnt/d/webroot/dotnetcorewebapi/WebApi.Tests/bin/Debug/netcoreapp3.1/WebApi.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="WebApi.Tests.UnitTest_Math" name="WorktimeTest_Message" />
+    </UnitTest>
+    <UnitTest name="Test_Minus" storage="/mnt/d/webroot/dotnetcorewebapi/webapi.tests/bin/debug/netcoreapp3.1/webapi.tests.dll" id="ff9ff691-3161-b8bd-3c9f-64e1a14c9e60">
+      <TestCategory>
+        <TestCategoryItem TestCategory="CategoryA" />
+      </TestCategory>
+      <Execution id="46626da6-1b3a-4662-8dfa-6d8fb9b988d1" />
+      <TestMethod codeBase="/mnt/d/webroot/dotnetcorewebapi/WebApi.Tests/bin/Debug/netcoreapp3.1/WebApi.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="WebApi.Tests.UnitTest_Math" name="Test_Minus" />
+    </UnitTest>
+    <UnitTest name="WorktimeTest" storage="/mnt/d/webroot/dotnetcorewebapi/webapi.tests/bin/debug/netcoreapp3.1/webapi.tests.dll" id="d3926562-b25c-8076-482d-4e97af76817c">
+      <Execution id="ecbf36eb-e051-4657-be13-3a26bdb3ee55" />
+      <TestMethod codeBase="/mnt/d/webroot/dotnetcorewebapi/WebApi.Tests/bin/Debug/netcoreapp3.1/WebApi.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="WebApi.Tests.UnitTest_Math" name="WorktimeTest" />
+    </UnitTest>
+    <UnitTest name="Test_Multiple" storage="/mnt/d/webroot/dotnetcorewebapi/webapi.tests/bin/debug/netcoreapp3.1/webapi.tests.dll" id="7162cc5a-f83d-437d-254d-7ddda8395402">
+      <Execution id="7580e8a2-454e-4a53-8c6c-17b25c579d67" />
+      <TestMethod codeBase="/mnt/d/webroot/dotnetcorewebapi/WebApi.Tests/bin/Debug/netcoreapp3.1/WebApi.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="WebApi.Tests.UnitTest_Math" name="Test_Multiple" />
+    </UnitTest>
+    <UnitTest name="Test_Add" storage="/mnt/d/webroot/dotnetcorewebapi/webapi.tests/bin/debug/netcoreapp3.1/webapi.tests.dll" id="9e1eab6c-6567-6e8b-be14-f68761daa49e">
+      <Execution id="aaf54871-8f07-4c42-bb56-77b6cea3078d" />
+      <TestMethod codeBase="/mnt/d/webroot/dotnetcorewebapi/WebApi.Tests/bin/Debug/netcoreapp3.1/WebApi.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="WebApi.Tests.UnitTest_Math" name="Test_Add" />
+    </UnitTest>
+    <UnitTest name="All_Assert_Method" storage="/mnt/d/webroot/dotnetcorewebapi/webapi.tests/bin/debug/netcoreapp3.1/webapi.tests.dll" id="df7c5bb9-179e-bbb4-0cff-4ab9fa43ac30">
+      <Execution id="406bb23d-ad27-4b89-983a-5c5dcf1d5cb6" />
+      <TestMethod codeBase="/mnt/d/webroot/dotnetcorewebapi/WebApi.Tests/bin/Debug/netcoreapp3.1/WebApi.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="WebApi.Tests.UnitTest_Math" name="All_Assert_Method" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="612b93fc-f78c-539c-56a9-4431699054aa" executionId="6dd04a17-66e6-41b2-a077-c658428256e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df7c5bb9-179e-bbb4-0cff-4ab9fa43ac30" executionId="406bb23d-ad27-4b89-983a-5c5dcf1d5cb6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7162cc5a-f83d-437d-254d-7ddda8395402" executionId="7580e8a2-454e-4a53-8c6c-17b25c579d67" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="767d0e87-a986-72ca-c025-9b9e6f36501a" executionId="930a8886-a166-453d-8f43-0d1f068391ef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3926562-b25c-8076-482d-4e97af76817c" executionId="ecbf36eb-e051-4657-be13-3a26bdb3ee55" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff9ff691-3161-b8bd-3c9f-64e1a14c9e60" executionId="46626da6-1b3a-4662-8dfa-6d8fb9b988d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e1eab6c-6567-6e8b-be14-f68761daa49e" executionId="aaf54871-8f07-4c42-bb56-77b6cea3078d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="9" executed="9" passed="6" failed="3" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

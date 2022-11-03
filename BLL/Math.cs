@@ -34,7 +34,7 @@ namespace BLL
         {
             if (hours > 12)
             {
-                throw new AngryException("HaHa");
+                throw new Exception("HaHa");
             }
 
             // todo something

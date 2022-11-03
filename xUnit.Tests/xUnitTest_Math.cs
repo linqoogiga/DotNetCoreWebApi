@@ -114,5 +114,11 @@ namespace xUnit.Tests
             Assert.True(1 == 1);
             Assert.True(true);
         }
+
+        [Fact]
+        public void WorktimeTest()
+        {
+            Assert.Throws<AngryException>(() => todoController.WorkTime(15));
+        }
     }
 }
