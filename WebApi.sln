@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLL", "BLL\BLL.csproj", "{0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnit.Tests", "xUnit.Tests\xUnit.Tests.csproj", "{64E4242C-8C4F-49A8-B3D4-8FBFF64AB25F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit.Tests", "NUnit.Tests\NUnit.Tests.csproj", "{35FCD776-0434-4CB7-9F47-C1F4478363BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnit.Tests", "NUnit.Tests\NUnit.Tests.csproj", "{35FCD776-0434-4CB7-9F47-C1F4478363BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
