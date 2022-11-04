@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HX6W7lRZu/Bfj45vazFxfkHnTud3Su7iGG5Fx9dWOA/92Tx570Rsek9VEDqNHzvnIRsAYFXqsbitD7hLCWBfOA==",
+  "dgSpecHash": "kYxPPMKkRLo5Zlia1Rk39AAzIiluHNjwh9UsDjQWSZ3Bnq8IS/rXV+yDgkD29ZQCcZLnWHkkbuMPzjL8RALNEQ==",
   "success": true,
-  "projectFilePath": "/mnt/d/webroot/dotnetcorewebapi/BLL/BLL.csproj",
+  "projectFilePath": "D:\\WebRoot\\DotNetCoreWebApi\\BLL\\BLL.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

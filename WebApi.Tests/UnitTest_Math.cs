@@ -4,6 +4,7 @@ using BLL;
 using System.IO;
 using System.Threading;
 
+[assembly: Parallelize(Workers = 0, Scope = ExecutionScope.MethodLevel)] //
 namespace WebApi.Tests
 {
     [TestClass]

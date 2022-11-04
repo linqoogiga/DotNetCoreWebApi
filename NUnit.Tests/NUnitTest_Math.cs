@@ -133,6 +133,7 @@ namespace NUnit.Tests
             Assert.IsTrue(true);
         }
 
+        [Parallelizable]
         [Test]
         public void Test_Z1()
         {
@@ -151,6 +152,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z2()
         {
@@ -169,6 +171,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z3()
         {
@@ -187,6 +190,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z4()
         {
@@ -205,6 +209,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z5()
         {
@@ -223,6 +228,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z6()
         {
@@ -241,6 +247,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z7()
         {
@@ -259,6 +266,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z8()
         {
@@ -277,6 +285,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z9()
         {
@@ -295,6 +304,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z10()
         {
@@ -313,6 +323,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z11()
         {
@@ -331,6 +342,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z12()
         {
@@ -349,6 +361,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z13()
         {
@@ -367,6 +380,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z14()
         {
@@ -385,6 +399,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z15()
         {
@@ -403,6 +418,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z16()
         {
@@ -421,6 +437,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z17()
         {
@@ -439,6 +456,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z18()
         {
@@ -457,6 +475,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z19()
         {
@@ -475,6 +494,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z20()
         {
@@ -493,6 +513,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z21()
         {
@@ -511,6 +532,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z22()
         {
@@ -529,6 +551,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z23()
         {
@@ -547,6 +570,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z24()
         {
@@ -565,6 +589,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z25()
         {
@@ -583,6 +608,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z26()
         {
@@ -601,6 +627,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z27()
         {
@@ -619,6 +646,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z28()
         {
@@ -637,6 +665,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z29()
         {
@@ -655,6 +684,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z30()
         {
@@ -673,6 +703,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z31()
         {
@@ -691,6 +722,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z32()
         {
@@ -709,6 +741,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z33()
         {
@@ -727,6 +760,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z34()
         {
@@ -745,6 +779,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z35()
         {
@@ -763,6 +798,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z36()
         {
@@ -781,6 +817,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z37()
         {
@@ -799,6 +836,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z38()
         {
@@ -817,6 +855,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z39()
         {
@@ -835,6 +874,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z40()
         {
@@ -853,6 +893,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z41()
         {
@@ -871,6 +912,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z42()
         {
@@ -889,6 +931,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z43()
         {
@@ -907,6 +950,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z44()
         {
@@ -925,6 +969,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z45()
         {
@@ -943,6 +988,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z46()
         {
@@ -961,6 +1007,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z47()
         {
@@ -979,6 +1026,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z48()
         {
@@ -997,6 +1045,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z49()
         {
@@ -1015,6 +1064,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+        [Parallelizable]
         [Test]
         public void Test_Z50()
         {
@@ -1033,6 +1083,7 @@ namespace NUnit.Tests
             Assert.AreEqual(expected, actual);
         }
         //===============================
+
 
     }
 }
