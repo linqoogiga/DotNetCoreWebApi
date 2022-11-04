@@ -138,20 +138,6 @@ namespace WebApi.Tests
             Assert.IsTrue(1 == 1);
             Assert.IsTrue(true);                        
         }
-
-        [TestMethod()]
-        [ExpectedException(typeof(AngryException))]
-        public void WorktimeTest()
-        {
-            todoController.WorkTime(15);
-        }
-
-        [TestMethod()]
-        [ExpectedException(typeof(AngryException),"ZA_HaHa")]
-        public void WorktimeTest_Message()
-        {
-            todoController.WorkTime(15);
-        }
     }
 }
 

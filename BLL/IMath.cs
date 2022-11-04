@@ -12,8 +12,6 @@ namespace BLL
 
         public int Multiple(int a, int b);
 
-        public int divide(int a, int b);
-
-        public string WorkTime(int hours);
+        public int divide(int a, int b);        
     }
 }

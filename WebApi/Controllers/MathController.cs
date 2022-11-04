@@ -43,14 +43,5 @@ namespace WebApi.Controllers
             //===
             return c;
         }
-
-
-        [HttpGet]
-        public string WorkTime(int hour)
-        {
-            string tmpMsg = _math.WorkTime(hour);
-            //===
-            return tmpMsg;
-        }
     }
 }

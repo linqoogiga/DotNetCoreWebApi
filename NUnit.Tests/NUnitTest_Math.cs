@@ -133,24 +133,5 @@ namespace NUnit.Tests
             Assert.IsTrue(1 == 1);
             Assert.IsTrue(true);
         }
-
-        [Test()]
-        public void WorktimeTest()
-        {
-            Assert.Throws<AngryException>(() => todoController.WorkTime(15));
-        }
-
-        [Test()]
-        public void WorktimeTest_Message()
-        {
-            var ex = Assert.Catch<AngryException>(() => todoController.WorkTime(15));
-            //===
-            string tmpAssertExMsg= "HaHa";
-            UTF8Encoding encoder = new UTF8Encoding();
-            byte[] bytes = Encoding.UTF8.GetBytes(tmpAssertExMsg);
-            string utf8ReturnString = encoder.GetString(bytes);
-            //===
-            StringAssert.Contains(utf8ReturnString, ex.Message);
-        }
     }
 }

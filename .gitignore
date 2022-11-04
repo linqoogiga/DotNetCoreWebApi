@@ -1,0 +1,11 @@
+﻿.vs
+BLL/bin
+BLL/obj
+NUnit.Tests/bin
+NUnit.Tests/obj
+WebApi/bin
+WebApi/obj
+WebApi.Tests/bin
+WebApi.Tests/obj
+xUnit.Tests/bin
+xUnit.Tests/obj
